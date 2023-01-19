@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="js/miscript.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>CV</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar bg-light">
+            <div class="container-fliud">
+                <a class="navbar-brand" href="#">
+                    <img src="imagen/logo.jpg" alt="logo" width="30" height="24" class="d-inline-block align-text-top">
+                    MI CV
+                </a>
+            </div>
+
+        </nav>
+
+    </header>
+    <main>
+        <section id="persona">
+            <section id="nombre">
+                <h1>Armando Nuñez</h1>
+                <h2>Senior Developer</h2>
+                <img src="imagen/perfil.jpg" alt="perfil">
+                <h4>10/06/1994  Edad: 28 años</h4>
+                
+                <p>Busco desempeñar mis tareas de 
+                    manera correcta y eficiente 
+                    aportando valor a la empresa, 
+                    Además siempre estoy dispuesto
+                     a aprender lo necesario para 
+                     mejorar mi desempeño en el 
+                     área a la que se me asigne.
+                    </p>
+            </section>
+
+
+        </section>
+        <section id="formacion">
+            <h2>Formacion Academica</h2>
+            <div class="lista-formaciones">
+
+                <div class="detalle-formacion">
+                    <h3>2000 - 2005</h3>
+                    <h4>Educacion Primaria</h4>
+                    <p>Colegio Santo Tomas de Aquino</p>
+
+                </div>
+
+                <div class="detalle-formacion">
+                    <h3>2006 - 2008</h3>
+                    <h4>Secundario Basico</h4>
+                    <p>Escuela Modelo</p>
+
+                </div>
+
+                <div class="detalle-formacion">
+                    <h3>2009 - 2011</h3>
+                    <h4>Secundario Orientado</h4>
+                    <p>Colegio Santo Tomas de Aquino</p>
+
+                </div>
+
+                <div class="detalle-formacion">
+                    <h3>2020 - 2022</h3>
+                    <h4>Carrera Universitaria</h4>
+                    <p>Tecnicatura en Programacion Web - En Curso</p>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="experiencia">
+
+            <div class="lista-experiencia">
+                <h2>Experiencia Laboral</h2>
+
+
+                <div class="detalle-experiencia">
+                    <h3>2019</h3>
+                    <h4>6 meses</h4>
+                    <p>Ayudante de Catedra</p>
+                </div>
+    
+                <div class="detalle-experiencia">
+                    <h3>2021</h3>
+                    <h4>3 meses</h4>
+                    <p>Atencion al Cliente</p>
+                </div>
+    
+                <div class="detalle-experiencia">
+                    <h3>2022</h3>
+                    <h4>6 meses</h4>
+                    <p>Ayudante de Catedra</p>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="container">]
+            <div class=" text-center mt-5 ">
+    
+                <h4 >Contactactame</h4>
+                    
+                
+            </div>
+    
+        
+        <div class="row ">
+          <div class="col-lg-7 mx-auto">
+            <div class="card mt-2 mx-auto p-4 bg-light">
+                <div class="card-body bg-light">
+           
+                <div class = "container">
+                                 <form id="contact-form" role="form">
+    
+                
+    
+                <div class="controls">
+    
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_name">Nombre *</label>
+                                <input id="form_name" type="text" name="name" class="form-control" placeholder="Tu nombre *" required="required" data-error="Firstname is required.">
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_lastname">Apellido *</label>
+                                <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Tu apellido *" required="required" data-error="Lastname is required.">
+                                                                </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_email">Email *</label>
+                                <input id="form_email" type="email" name="email" class="form-control" placeholder="Tu email *" required="required" data-error="Valid email is required.">
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_need">Asunto *</label>
+                                <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                                    <option value="" selected disabled>--Selecciona el motivo--</option>
+                                    <option >Me gustaria contratarte</option>
+                                    <option >Otro motivo</option>
+                                </select>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="form_message">Mensaje *</label>
+                                <textarea id="form_message" name="message" class="form-control" placeholder="Dime!." rows="4" required="required" data-error="Please, leave us a message."></textarea
+                                    >
+                                </div>
+    
+                            </div>
+    
+    
+                        <div class="col-md-12">
+                            
+                            <input type="submit" id="boton" class="btn btn-success btn-send  pt-2 btn-block
+                                " value="Enviar" >
+                        
+                    </div>
+              
+                    </div>
+    
+    
+            </div>
+             </form>
+            </div>
+                </div>
+    
+    
+        </div>
+    
+        </div>
+    
+    </div>
+    </div>
+    
+
+        
+
+
+
+        
+
+        
+
+
+
+
+        
+
+    </main>
+    <footer class="text-center text-lg-start bg-dark text-white">
+        <div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+                <p><i class="fas fa-home me-3 text-secondary"></i> San Juan, Capital, Argentina</p>
+                <p>
+                  <i class="fas fa-envelope me-3 text-secondary"></i>
+                  info@example.com
+                </p>
+                <p><i class="fas fa-phone me-3 text-secondary"></i> + 54 9 264 4806530</p>
+              </div>
+              
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2023 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+          </div>
+    </footer>
+    
+</body>
+</html>

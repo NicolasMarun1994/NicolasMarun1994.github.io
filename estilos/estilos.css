@@ -1,0 +1,47 @@
+main{
+    background-color: gainsboro;
+}
+
+section{
+    height: 100vh;
+}
+
+section#persona{
+    height: 100vh;
+}
+
+
+section#nombre{
+    background-color: lightblue;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section#nombre p{
+    padding-left: 20vh;
+    padding-right: 20vh;
+    text-align: justify;
+    
+}
+
+
+section#formacion{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+section#experiencia{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    padding-bottom: 5vh;
+}
